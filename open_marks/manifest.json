@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "openmarks",
+    "description": "a cloud bookmar",
+    "version": "0.1",
+    "browser_action": {
+        "default_icon": {
+            "19": "images/logo.png",
+            "38": "images/logo.png"
+        },
+        "default_title": "openmarks",
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "scripts": ["app/background.js"]
+    },
+    "options_page": "options.html",
+    "permissions": [
+        "bookmarks",
+        "http://127.0.0.1:5000/create"
+    ],
+    "content_security_policy": "script-src 'self' 'unsafe-eval' *"
+    
+}

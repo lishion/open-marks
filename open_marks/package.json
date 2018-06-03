@@ -1,0 +1,21 @@
+{
+  "name": "open_marks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open"
+  },
+  "author": "lin3x",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.10.2",
+    "webpack-cli": "^3.0.1",
+    "webpack-command": "^0.2.0",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "jquery": "^3.3.1"
+  }
+}
